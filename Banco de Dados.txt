@@ -1,0 +1,40 @@
+INSERT INTO DEPARTAMENTO (codigo, descricao)
+	VALUES (1, 'FINANCEIRO');
+	
+INSERT INTO DEPARTAMENTO (codigo, descricao)
+	VALUES (2, 'CONTABILIDADE');
+
+INSERT INTO DEPARTAMENTO (codigo, descricao)
+	VALUES(3, 'GESTAO DE PESSOAS');
+	
+INSERT INTO DEPARTAMENTO (codigo, descricao)
+	VALUES(4, 'VENDAS');
+	
+INSERT INTO DEPARTAMENTO (codigo, descricao)
+	VALUES(5, 'ESTOQUE');
+	
+INSERT INTO DEPARTAMENTO (codigo, descricao)
+	VALUES(6,'INFORMATICA');
+	
+INSERT INTO FUNCIONARIO (codigo,nome,endereco,telefone,cod_departamento)
+	VALUES(1,'COCO','RUA IPIRANGA', 45999772527, 1);
+	
+INSERT INTO FUNCIONARIO (codigo, nome, endereco, telefone, cod_departamento)
+	VALUES(2,'CACA','RUA TUPINAMBA',45988039066,2);
+	
+INSERT INTO FUNCIONARIO (codigo, nome, endereco, telefone, cod_departamento)
+	VALUES (3,'CECE','RUA DAS PEDRA',45999516646,3);
+	
+INSERT INTO FUNCIONARIO (codigo, nome, endereco, telefone, cod_departamento)
+	VALUES (4,'CICI','RUA DAS CACHOIRAS',45998464968,4);
+	
+INSERT INTO DEPARTAMENTO (codigo, nome)
+	
+	
+	UPDATE DEPARTAMENTO SET DESCRICAO = 'RH' WHERE CODIGO = 3;
+	
+	select * from DEPENDENTES;
+	select * from FUNCIONARIO;
+	select * from DEPARTAMENTO;
+	
+select * from FUNCIONARIO f WHERE f.endereco = 'RUA DAS PEDRA';
